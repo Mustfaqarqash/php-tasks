@@ -1,0 +1,31 @@
+
+It seems like you're trying to create a simple webpage that acts as a search engine where users can enter a URL and then get redirected to that URL when they click the "GO" button. However, there are a few corrections needed in your PHP code to achieve this functionality correctly.
+
+Here's how you can adjust your PHP code:
+
+php
+نسخ الكود
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Redirection Search Engine</title>
+</head>
+
+<body>
+     <!-- 
+!   2.	URL Redirection Search Engine
+*	Task: Develop a simple search engine webpage with a text input for a URL and a button labeled "GO".
+*	Instructions: When the "GO" button is clicked, the site should redirect the user to the entered URL.
+*	Objective: Practice handling form input and using the header function for redirection.
+
+    -->
+    <form action="index.php" method="post">
+        <input type="text" name="searchText" placeholder="Enter URL">
+        <button type="submit">GO</button>
+    </form>
+</body>
+
+</html>
